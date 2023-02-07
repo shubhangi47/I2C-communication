@@ -66,7 +66,7 @@ i2c_start(); // transmit start condition
 i2c_write(0b11010001); // transmitt Slave address + R(1) (SLA+R means to master is reading )
 i = i2c_read(1); // read only 1 byte 
 PORTD= i; // show byte in PORTD
-i2c_stop(); // transmitt start condition
+i2c_stop(); // transmitt stop condition
 while(1); 
 return 0;  
 }	
