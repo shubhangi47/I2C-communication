@@ -5,3 +5,5 @@ List of codes of AVR arduino operating in different modes as follows;
 2. Arduino as Master in Write Mode.
 3. Arduino as Slave  in Read Mode.
 4. Arduino as Slave  in Write Mode.
+
+Proteus Simulation project between two arduinos acting as slave and master.
